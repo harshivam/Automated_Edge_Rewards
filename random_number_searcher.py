@@ -40,10 +40,13 @@ def main():
         for _ in range(14):
             # Opens a new tab
             driver.execute_script("window.open('');")
+
             # Switch to the newly opened tab
             driver.switch_to.window(driver.window_handles[-1])
+
             # Search for a random number
             search_random_number(driver)
+            
             # Wait for 10 seconds for Edge to update the reward points
             # You can reduce to sleep time if it takes less time to update!
             time.sleep(10)
