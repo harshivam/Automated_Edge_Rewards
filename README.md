@@ -7,7 +7,7 @@ This tool is basically allows you to earn coins by searching random problems and
 # Basic Requirements
 
 Only have a Microsoft Edge Browser.
-Have a minimum 4 GB RAM(it take some memory during the searching). 
+Have Python Installed.
 
 # Installation Steps
 
